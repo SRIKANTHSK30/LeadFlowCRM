@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://leadflowcrm-api.onrender.com/api';
 
 export const api = {
   async request(endpoint: string, options: RequestInit = {}) {

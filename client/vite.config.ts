@@ -7,16 +7,8 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://leadflowcrm-api.onrender.com',
         changeOrigin: true,
-      },
-    },
-  },
-  build: {
-    outDir: 'dist',
-    rollupOptions: {
-      input: {
-        main: 'index.html',
       },
     },
   },
