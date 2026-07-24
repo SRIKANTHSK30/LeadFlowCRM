@@ -1,3 +1,4 @@
+import './index.css';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
@@ -7,7 +8,6 @@ import Users from "./pages/Users";
 import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
 import MainLayout from "./layouts/MainLayout";
-
 function App() {
   return (
     <BrowserRouter>
